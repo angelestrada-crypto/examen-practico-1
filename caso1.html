@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabla de Evaluaciones</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    h2 {
+      margin-bottom: 15px;
+    }
+    table {
+      border-collapse: collapse;
+      width: auto;
+    }
+    th, td {
+      border: 1px solid #999;
+      padding: 8px 14px;
+      text-align: center;
+    }
+    .aprobados {
+      background-color: green;
+      color: white;
+    }
+    .suspendidos {
+      background-color: red;
+      color: white;
+    }
+    td:first-child {
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+  <h2>TABLA DE EVALUACIONES</h2>
+  <table>
+    <thead>
+      <tr>
+        <th rowspan="2"></th>
+        <th colspan="2">1ª Eval</th>
+        <th colspan="2">2ª EVal</th>
+        <th colspan="2">3ª Eval</th>
+      </tr>
+      <tr>
+        <th class="aprobados">Aprobados</th>
+        <th class="suspendidos">Suspendidos</th>
+        <th class="aprobados">Aprobados</th>
+        <th class="suspendidos">Suspendidos</th>
+        <th class="aprobados">Aprobados</th>
+        <th class="suspendidos">Suspendidos</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Informática</td>
+        <td>20</td>
+        <td>2</td>
+        <td>19</td>
+        <td>3</td>
+        <td>22</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td>Matemáticas</td>
+        <td>10</td>
+        <td>12</td>
+        <td>15</td>
+        <td>7</td>
+        <td>12</td>
+        <td>10</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
